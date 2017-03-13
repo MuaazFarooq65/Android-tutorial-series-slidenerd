@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<TextView android:id="@+id/label1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="#ff0000cc"
+		android:text="This is Activity2" android:textStyle="bold"
+		android:textSize="20sp"></TextView>
+	<EditText android:id="@+id/text1" android:layout_width="fill_parent"
+		android:layout_height="54px" android:text="content://contacts/people/"
+		android:textSize="18sp"></EditText>
+	<Button android:id="@+id/btnPickContact" android:layout_width="149px"
+		android:layout_height="wrap_content" android:text="Pick a Contact"
+		android:textStyle="bold"></Button>
+</LinearLayout>

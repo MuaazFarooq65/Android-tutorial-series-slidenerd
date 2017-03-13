@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_gravity="center"
+		android:text="@string/menu" android:textSize="16sp" android:textStyle="bold" />
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_height="fill_parent" android:layout_width="fill_parent"
+		android:layout_marginBottom="45dp">
+		<LinearLayout android:id="@+id/LinearLayout01"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:orientation="vertical">
+			<LinearLayout android:id="@+id/LinearLayout02"
+				android:layout_height="wrap_content" android:layout_width="fill_parent">
+				<Button android:layout_height="wrap_content" android:id="@+id/myCall"
+					android:text="Call" android:layout_width="fill_parent"
+					android:layout_weight="1"></Button>
+				<Button android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:layout_weight="1"
+					android:text="Web Search" android:id="@+id/myWebSearch"></Button>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout03"
+				android:layout_height="wrap_content" android:layout_width="fill_parent">
+				<Button android:layout_height="wrap_content" android:id="@+id/mySendTo"
+					android:text="Send To" android:layout_width="fill_parent"
+					android:layout_weight="1"></Button>
+				<Button android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:layout_weight="1"
+					android:text="Get Content" android:id="@+id/myGetContent"></Button>
+			</LinearLayout>
+			<Button android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:layout_weight="1"
+				android:text="Activity1" android:id="@+id/myActivity1"></Button>
+			<LinearLayout android:id="@+id/LinearLayout03"
+				android:layout_height="wrap_content" android:layout_width="fill_parent">
+				<Button android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:id="@+id/myViewContact"
+					android:text="Contacts" android:layout_weight="1"></Button>
+				<Button android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:id="@+id/myViewContactEdit"
+					android:text="Edit Contacts" android:layout_weight="1"></Button>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout04"
+				android:layout_height="wrap_content" android:layout_width="fill_parent">
+				<Button android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:id="@+id/myViewWebpage"
+					android:text="Webpage" android:layout_weight="1"></Button>
+				<Button android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:id="@+id/myViewGeo"
+					android:text="Geo Mapping" android:layout_weight="1"></Button>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout05"
+				android:layout_height="wrap_content" android:layout_width="fill_parent">
+				<Button android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:id="@+id/myMusic"
+					android:text="Music Player" android:layout_weight="1"></Button>
+				<Button android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:id="@+id/mySendEmail"
+					android:text="Send Email" android:layout_weight="1"></Button>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/LinearLayout06"
+				android:layout_height="wrap_content" android:layout_width="fill_parent">
+				<Button android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:id="@+id/mySystem"
+					android:text="Setting System" android:layout_weight="1"></Button>
+				<Button android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:id="@+id/myLocale"
+					android:text="Setting Locale" android:layout_weight="1"></Button>
+			</LinearLayout>
+			<Button android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:id="@+id/myActivity2"
+				android:text="Activity2"></Button>
+		</LinearLayout>
+	</ScrollView>
+
+	<RelativeLayout android:gravity="bottom|right|center"
+		android:background="@android:drawable/bottom_bar" android:padding="0.0dip"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_marginTop="-45.0dip" android:layout_alignParentBottom="true">
+
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="false" android:layout_marginBottom="-4dp" android:drawablePadding="2sp" android:id="@+id/myCredit" android:text="@string/my_credit" android:drawableRight="@drawable/button_next" android:layout_alignParentRight="true"></Button>
+	</RelativeLayout>
+</LinearLayout>

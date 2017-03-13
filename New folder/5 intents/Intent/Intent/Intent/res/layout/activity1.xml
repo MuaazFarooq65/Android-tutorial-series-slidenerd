@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<TextView android:text="This is Activity1" android:id="@+id/label1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textSize="20sp" android:textStyle="bold" android:background="#ff0000cc"></TextView>
+	<EditText android:text="tel:555-1234" android:id="@+id/text2"
+		android:layout_width="fill_parent" android:textSize="18sp" android:layout_height="54px"></EditText>
+	<Button android:text="Make Phone Call" android:id="@+id/btnCallActivity1" 
+		android:layout_width="149px" android:layout_height="wrap_content" android:textStyle="bold"></Button>
+</LinearLayout>

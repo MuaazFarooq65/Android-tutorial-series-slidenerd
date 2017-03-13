@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent"
+	android:layout_width="fill_parent" android:padding="10dp" android:id="@+id/main" android:background="@drawable/border">
+	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center_vertical|center"
+		android:textColor="#FFFFFF" android:text="Kelompok III IT B PENS-ITS"
+		android:textSize="20sp" android:textStyle="bold" android:padding="10sp"></TextView>
+	<ImageView android:id="@+id/ImageView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp" android:src="@drawable/kelompok3"
+		android:layout_gravity="center"></ImageView>
+	<TextView android:id="@+id/TextView02" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:text="@string/yustian"></TextView>
+	<TextView android:id="@+id/TextView03" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:text="@string/septian"></TextView>
+	<TextView android:id="@+id/TextView04" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:text="@string/hermono"></TextView>
+	<TextView android:id="@+id/TextView05" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:text="@string/westi"></TextView>
+
+
+</LinearLayout>

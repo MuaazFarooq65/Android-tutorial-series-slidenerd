@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#5DA18B"
+    android:padding="10dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/launchMap"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.27"
+                android:background="#CCB87E"
+                android:onClick="process"
+                android:text="Launch Map" />
+
+            <Button
+                android:id="@+id/launchMarket"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/launchMap"
+                android:layout_alignRight="@+id/launchMap"
+                android:layout_below="@+id/launchMap"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.27"
+                android:background="#CCB87E"
+                android:onClick="process"
+                android:text="Launch Market" />
+
+            <Button
+                android:id="@+id/sendEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/launchMarket"
+                android:layout_alignRight="@+id/launchMarket"
+                android:layout_below="@+id/launchMarket"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.27"
+                android:background="#CCB87E"
+                android:onClick="process"
+                android:text="Send Email" />
+
+            <Button
+                android:id="@+id/sendImage"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/sendEmail"
+                android:layout_below="@+id/sendEmail"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.27"
+                android:background="#CCB87E"
+                android:onClick="process"
+                android:text="Send Image" />
+
+            <Button
+                android:id="@+id/sendMultipleImages"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/sendImage"
+                android:layout_alignRight="@+id/sendImage"
+                android:layout_below="@+id/sendImage"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.27"
+                android:background="#CCB87E"
+                android:onClick="process"
+                android:text="Send Multiple Images" />
+
+            <Button
+                android:id="@+id/takePicture"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.27"
+                android:background="#CCB87E"
+                android:onClick="process"
+                android:text="Take Picture" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

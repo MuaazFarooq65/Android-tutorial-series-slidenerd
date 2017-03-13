@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="my_credit">Credit By </string>
+    <string name="westi">Dwi Prawesti (7410040522)</string>
+    <string name="hermono">Hermono (7410040531)</string>
+    <string name="septian">Septian Dwi Pratama (7410040503)</string>
+    <string name="yustian">Yustian Mantjoro (7410040526)</string>
+    <string name="menu">Menu Intent</string>
+    <string name="hello">Hello World, Intent1!</string>
+    <string name="app_name">Intent</string>
+</resources>
