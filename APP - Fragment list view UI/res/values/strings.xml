@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">flexibleLayout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="chapters">
+        <item>Actividades</item>
+        <item>Serviços</item>
+        <item>Content Providers</item>
+        <item>Intent and Intent Filters</item>
+    </string-array>
+    <string-array name="descriptons">
+        <item>Uma atividade é um componente de aplicação que fornece uma tela com a qual os usuários podem interagir, a fim de fazer alguma coisa, como discar o telefone, tire uma foto, envie um e-mail, ou visualizar um mapa. Cada atividade é dada uma janela na qual desenhar sua interface de usuário. A janela normalmente preenche a tela, mas pode ser menor do que a tela e flutuar em cima de outras janelas.</item>
+        <item>Um serviço é um componente de aplicação que pode executar operações de longa duração em segundo plano e não fornece uma interface de usuário. Outro componente aplicativo pode iniciar um serviço e ele continuará a funcionar em segundo plano, mesmo se o usuário muda para outro aplicativo. Além disso, um componente pode se ligar a um serviço para interagir com ele e até mesmo realizar a comunicação entre processos (IPC). Por exemplo, um serviço pode lidar com transações de rede, tocar música, executar arquivo I / O, ou interagir com um provedor de conteúdo, tudo a partir do fundo.</item>
+        <item>Os provedores de conteúdo gerenciar o acesso a um conjunto estruturado de dados. Eles encapsular os dados e fornecer mecanismos para a definição de segurança de dados. Os provedores de conteúdo são a interface padrão que conecta dados em um processo com o código em execução em outro processo.</item>
+        <item>Uma Intenção é um objeto de mensagens que você pode usar para solicitar uma ação de outro componente do aplicativo. Embora as intenções facilitar a comunicação entre os componentes de várias maneiras, há três casos de uso fundamentais:</item>
+    </string-array>
+
+</resources>
