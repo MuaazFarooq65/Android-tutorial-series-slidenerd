@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/load"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="73dp"
+        android:onClick="load"
+        android:text="Load" />
+
+    <TextView
+        android:id="@+id/resultusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/load"
+        android:layout_marginTop="17dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/resultuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/resultusername"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/resultusername"
+        android:ems="10" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/resultPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/resultusername"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/resultpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/resultPassword"
+        android:layout_alignBottom="@+id/resultPassword"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/resultPassword"
+        android:onClick="previous"
+        android:ems="10" >
+    </EditText>
+
+    <Button
+        android:id="@+id/previous"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/resultusername"
+        android:layout_marginLeft="51dp"
+        android:layout_toRightOf="@+id/load"
+        android:onClick="previous"
+        android:text="Previous" />
+
+</RelativeLayout>
