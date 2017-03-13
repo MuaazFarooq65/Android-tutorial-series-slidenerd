@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListFragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="titles">
+        <item>Batman</item>
+        <item>Superman</item>
+        <item>Green Lantern</item>
+        <item>Arrow</item>
+    </string-array>
+    
+    <string-array name="year">
+        <item>2010</item>
+        <item>1960</item>
+        <item>2012</item>
+        <item>2014</item>
+    </string-array>
+	
+    <string name="title_activity_another">MainActivity</string>
+    
+</resources>

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/showDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:onClick="showDialog"
+        android:text="Show Dialog"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+    <Button
+        android:id="@+id/showFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/showDialog"
+        android:onClick="showFragment"
+        android:text="Show as a fragment"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+    <LinearLayout
+        android:id="@+id/group"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/showFragment"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</RelativeLayout>

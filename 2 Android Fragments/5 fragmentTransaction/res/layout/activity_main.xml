@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fe0"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp" >
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="addA"
+        android:text="Add A" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Button02"
+        android:layout_alignBottom="@+id/Button02"
+        android:layout_toRightOf="@+id/Button02"
+        android:onClick="removeA"
+        android:text="Remove A" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Button01"
+        android:layout_alignBottom="@+id/Button01"
+        android:layout_toRightOf="@+id/Button01"
+        android:onClick="replaceAwithB"
+        android:text="Replace A with B" />
+
+    <Button
+        android:id="@+id/Button06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button03"
+        android:layout_below="@+id/Button03"
+        android:onClick="replaceBwithA"
+        android:text="Replace B with A" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button02"
+        android:layout_toLeftOf="@+id/Button01"
+        android:onClick="addB"
+        android:text="Add B" />
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Button04"
+        android:layout_alignBottom="@+id/Button04"
+        android:layout_toRightOf="@+id/Button04"
+        android:onClick="removeB"
+        android:text="Remove B" />
+
+    <Button
+        android:id="@+id/Button07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button04"
+        android:layout_below="@+id/Button04"
+        android:onClick="attachA"
+        android:text="Attach A" />
+
+    <Button
+        android:id="@+id/Button08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button06"
+        android:layout_toRightOf="@+id/Button07"
+        android:onClick="detachA"
+        android:text="Detach A" />
+
+    <LinearLayout
+        android:id="@+id/group"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/Button08"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>
