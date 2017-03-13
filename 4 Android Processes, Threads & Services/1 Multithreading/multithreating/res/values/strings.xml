@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">multithreating</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string-array name="urls">
+        <item>Image 1</item>
+        <item>Image 2</item>
+        <item>Image 3</item>
+        <item>Image 4</item>
+        <item>Image 5</item>
+        <item>Image 6</item>
+    </string-array>
+    
+    <string-array name="imageUrls">
+        <item>http://www.thewestsidestory.net/wp-content/uploads/2014/04/android-kitkat.jpg</item>
+        <item>http://www.firstpost.com/wp-content/uploads/2013/09/01_Android-all-versions.jpg</item>
+        <item>http://static.trustedreviews.com/94/0000296dc/5189/Nexus-5-Android-KitKat-1-.jpg</item>
+        <item>http://core0.staticworld.net/images/idge/imported/article/nww/2013/11/android_cupcake_to_kitkat__1_-100275134-orig.jpg</item>
+        <item>http://cdn3.sbnation.com/assets/3508203/kitkat-three-up-homescreen.jpg</item>
+        <item>http://3.bp.blogspot.com/-gtI4J9MIiW4/UqbyeC1UymI/AAAAAAAAAXg/evt4XnAZUdk/s1600/iPhone+android+kitkat+ios+7+copy+lawsuit+samsung+price+of+iphone+5S+5C+Motorolla+Google+comparison+homescreen+lockscreen.jpg</item>
+    </string-array>
+
+</resources>
